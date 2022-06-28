@@ -1,0 +1,60 @@
+.sa-costume-editor-layout-row {
+    padding: 0.25rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.sa-costume-editor-layout-button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #D9D9D9;
+    border-radius: 0.25rem;
+    width: calc(2rem + 2px);
+    height: calc(2rem + 2px);
+    background: #fff;
+    padding: 0.375rem;
+    align-items: center;
+    user-select: none;
+}
+
+.sa-costume-editor-layout-button-toggled-off {
+    filter: saturate(0);
+}
+
+[dir="ltr"] .sa-costume-editor-layout-button:first-of-type {
+    border-left: 1px solid #D9D9D9;
+}
+
+[dir="ltr"] .sa-costume-editor-layout-button {
+    border-left: none;
+}
+
+[dir="ltr"] .sa-table-layout-button {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+[dir="ltr"] .sa-default-layout-button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+[dir="rtl"] .sa-costume-editor-layout-button:first-of-type {
+    border-right: 1px solid #D9D9D9;
+}
+
+[dir="rtl"] .sa-costume-editor-layout-button {
+    border-right: none;
+}
+
+[dir="rtl"] .sa-table-layout-button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+[dir="rtl"] .sa-default-layout-button {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

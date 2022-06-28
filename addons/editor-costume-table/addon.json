@@ -1,0 +1,25 @@
+{
+    "name": "costume table",
+    "description": "Adds button to show costume table to costume editor.",
+    "tags": ["editor", "costumeEditor"],
+    "credits": [
+      {
+        "name": "hiron0413",
+        "link": "https://scratch.mit.edu/users/hiron0413/"
+      }
+    ],
+    "userscripts": [
+      {
+        "url": "userscript.js",
+        "matches": ["projects"]
+      }
+    ],
+    "userstyles": [
+      {
+        "url": "style.css",
+        "matches": ["projects"]
+      }
+    ],
+    "enabledByDefault": false
+
+}

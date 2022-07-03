@@ -19,6 +19,10 @@
     user-select: none;
 }
 
+.sa-costume-grid-list-area > div > div {
+    margin: 0.5rem;
+}
+
 .sa-costume-editor-layout-button-toggled-off {
     filter: saturate(0);
 }
@@ -31,7 +35,7 @@
     border-left: none;
 }
 
-[dir="ltr"] .sa-table-layout-button {
+[dir="ltr"] .sa-grid-layout-button {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
@@ -49,7 +53,7 @@
     border-right: none;
 }
 
-[dir="rtl"] .sa-table-layout-button {
+[dir="rtl"] .sa-grid-layout-button {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }

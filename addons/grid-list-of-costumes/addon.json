@@ -1,6 +1,6 @@
 {
-    "name": "costume table",
-    "description": "Adds button to show costume table to costume editor.",
+    "name": "grid list of costumes",
+    "description": "Adds button to display costumes in a grid.",
     "tags": ["editor", "costumeEditor"],
     "credits": [
       {
@@ -21,5 +21,4 @@
       }
     ],
     "enabledByDefault": false
-
 }
